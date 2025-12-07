@@ -6,4 +6,11 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
 
-package-mode = false
+[tool.poetry]
+name = "pythonsortingvisualizer"
+version = "0.1.0"
+
+# 👇 Tell poetry where the code is
+packages = [
+  { include = "bubblesortviz" }
+]
