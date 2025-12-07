@@ -9,8 +9,4 @@ dependencies = []
 [tool.poetry]
 name = "pythonsortingvisualizer"
 version = "0.1.0"
-
-# 👇 Tell poetry where the code is
-packages = [
-  { include = "bubblesortviz" }
-]
+package-mode = false
